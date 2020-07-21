@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<section class="booking">
+    <div class="app-ui__container">
+      <div class="app-ui">
+        <header>
+          <a href="#" class="back">
+            <img src="./images/larr.svg" alt="">
+          </a>
+          <div class="avater">
+            <img src="./images/avatar.jpg" alt="">
+          </div>
+          <div class="user">
+          <h4 class="user__name">
+            Samuel Green
+          </h4>
+          <p class="user__availability">
+            Available to Walk
+          </p>
+          </div>
+          <div class="menu">
+            <span></span>
+          </div>
+        </header>
+        <div class="message">
+          <div class="message__display">
+            <div class="m m__left">
+              <p class="msg message__received">
+                That sounds great. I’d be happy with that.
+              </p>
+              <p class="msg message__received">
+                Could you send over some pictures of your dog, please?
+              </p>
+            </div>
+            <div class="m m__right">
+              <div class="message__sent--img">
+                <img src="./images/dog-image-1.jpg" alt="">
+                <img src="./images/dog-image-2.jpg" alt="">
+                <img src="./images/dog-image-3.jpg" alt="">
+              </div>
+              <p class="msg message__sent">
+                Here are a few pictures. She’s a happy girl!
+              </p>
+              <p class="msg message__sent">
+                Can you make it?
+              </p>
+            </div>
+            <div class="m m__left">
+              <p class="msg message__received">
+                She looks so happy! The time we discussed works. How long shall I take her out for?
+              </p>
+              <div class="typing__bubble">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="msg message__received pricing">
+                <span class="radio"></span>30 minute walk <span class="price">$29</span>
+              </div>
+              <div class="msg message__received pricing">
+                  <span class="radio"></span>1 hour walk
+                  <span class="price">$49</span>
+              </div>
+          </div>
+          </div>
+          <form>
+            <input type="text" name="message__input" class="message__input" placeholder="Type a message...">
+            <button type="submit" class="btn btn__send">
+              <img src="./images/rarr.svg" alt="">
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="booking__body">
+      <div class="booking__container">
+      <h1 class="booking__title">Simple booking</h1>
+      <p class="booking__text">
+        Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+        discuss arrangements and make bookings. Once the walk has been completed you can rate 
+        your walker and book again all through the chat.
+      </p>
+      </div>
+    </div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Natanem Tadesse</a>.
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
